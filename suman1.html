@@ -1,0 +1,301 @@
+<html>
+<head>
+<style> #2b2344, #605050, #ffffff
+url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,500&display=swap');
+*{
+	margin: 5px;
+	padding: 5px, 5px, 5px, 5px;
+	box-shadow: border-box;
+	font-family: 'Poppins',sans-serif;
+}
+body{
+	background: #2b2344;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+.main-container{
+	position: relative; 
+	width: 100%;
+
+	background: #fff;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+
+a{
+	    color: #2b2344;
+	    text-decoration-style: none;
+}
+
+/* start design of profile section  */
+.myprofile{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 20px;
+	border-bottom: 1px solid rgba(255,255,255,0.2)
+}
+.myprofile .profileimg{
+	position: relative;
+	width:200px;
+	height: 200px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.myprofile .profileimg img{
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height: 100%;
+	object-fit:cover;
+}
+.myprofile h2{
+  color:#2B2344;
+  font-size: 1.5em;
+  margin-top:20px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.4em;
+}
+.myprofile h2 span{
+	font-size: 0.8em;
+	font-weight: 300;
+}
+.contactinfo{
+	padding-top:55px;
+}
+.title{
+	color:#2B2344;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+}
+.contactinfo ul{
+	position: relative;
+}
+.contactinfo ul li{
+	position: relative;
+	list-style: none;
+	margin: 10px 0px;
+	
+}
+.contactinfo ul li a{
+	cursor: pointer;
+}
+.contactinfo ul li  span{
+	color: #2B2344;
+	font-weight: 400;
+}
+.contactinfo ul li .icon{
+	display: inline-block;
+	width: 30px;
+	font-size: 18px;
+	color: #FB4C53;
+}
+
+    /*education style */
+
+.contactinfo.education li{
+  margin-bottom: 15px;
+}
+.contactinfo.education h5{
+	color: #FB4C53;
+	font-weight: 600;
+	margin-bottom: 8px;
+}
+.contactinfo.education h4:nth-child(2){
+	color: #2B2344;
+	font-weight: 500;
+	margin-bottom: 4px;
+}
+.contactinfo.education h4{
+	color: #2B2344;
+	font-weight: ;
+}
+/* *********************end desgin of profile section ************************* */
+
+/********************starti design left sidebar*/
+.main-container .left-sidebar {
+    position: relative;
+	background:#fff;
+	padding: 40px;
+	
+}
+.about-me{
+	margin-bottom: 50px;
+}
+.about-me:last-child{
+	margin-bottom: 0;
+}
+.left-side-title{
+	color: #2B2344;
+	text-transform: uppercase;
+	letter-spacing: 1.2px;
+	margin-bottom: 20px;
+}
+p{
+	color: #333;
+}
+.my-skills .box{
+	position: relative;
+	width: 100%;
+	display: grid;
+	grid-template-columns: 150px 1fr;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 42px;
+}
+.my-skills .box h4{
+	text-transform: uppercase;
+	color: #848c99;
+	font-weight: 500;
+
+}
+.my-skills .box .skill-percent{
+	position: relative;
+	width: 100%;
+	height: 10px;
+	background: #f0f0f0;
+}
+.my-skills .box .skill-percent div{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	background: #FB4C53;
+}
+.about-me.interest ul li{
+	list-style: none;
+	display: inline;
+	text-transform: uppercase;
+	color: #1653eb;
+	font-weight: 250;
+}
+/************************end 26 desing right sidebar*/</style>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>BHATTARAI SUMAN</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+   <div class="main-container">
+   	  <div class="right-sidebar">
+   	  	 <div class="myprofile">
+			<div class="profileimg">
+				<img src="img/anil.jpg" alt="Anil Chhetri">
+			</div>
+			<h2>BHATTARAI SUMAN<br><span>NETWORK ADMINISTER</span></h2>
+		 </div>
+
+
+		 <div class="contactinfo">
+			<h3 class="title">Contact Info</h3>
+			<ul>
+				<li>
+					<span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+					<span class="text">+08061521398</span>
+				</li>
+				<li>
+					<span class="icon"><i class="fa fa-link" aria-hidden="true"></i></span>
+					<a href="bhattaraisuman997@gmail/"><span class="text">Gmail</span></a>
+				</li>
+				<li>
+					<span class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+					<span class="text"><a href="mailto:chhetrivision@gmail.com">bhattaraisuman997@gmail.com</a></span>
+				</li>
+				<li>
+					<span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+					<span class="text">Kyoto japan</span>
+				</li>
+			</ul>
+		 </div>
+
+		 <!-- Ending of contact information -->
+
+
+        <!-- starting of education information -->
+		 <div class="contactinfo education">
+			<h3 class="title">Education</h3>
+			<ul>
+				<li>
+					<h5>2022-Running</h5>
+					<h4>Master In Computter Applicaton</h4>
+					<h4>KCGI Kyoto,Japan</h4>
+				</li>
+
+				<li>
+					<h5>2013-2018</h5>
+					<h4>Bachelor in computer information system</h4>
+					<h4>Pokhara University,nepal</h4>
+				</li>
+			</ul>
+		 </div>
+
+		 <div class="contactinfo language">
+			  <h3 class="title">Languages</h3>
+			   <ul>
+				 <li>  
+				 	<span class="text">Nepali</span>			 	
+				 </li>
+				 <li>  
+				 	<span class="text">Japanese</span>			 	
+				 </li>
+				 <li>  
+				 	<span class="text">English</span>			 	
+				 </li>
+				 <li>  
+				 	<span class="text">Hindi</span>			 	
+				 </li>
+            </ul>
+
+        </div>
+
+  
+
+
+
+   	  </div>
+   	  <div class="left-sidebar">
+   	  	  <div class="about-me">
+              <h2 class="left-side-title">About Me</h2>
+   	  	  	  <p>
+   	  	  	  	I am an enthusiastic web developer based in kyoto, with a rich experience of over 3 years in website Development.With years of experience in web development I have mastered the skills of understanding client requirements according to the latest trends. I have worked with businesses from different niches so you can rely on me for yours.<br><br>
+   	  	  	  	I’ve spent most of these years working across different areas of design like front-end development, landing pages. Having worked on various projects that are already live, I can help you with the best possible suggestions and ideas that we can proceed with. With me, you aren’t forced to accept anything. I give you a variety of options we can work on together.
+   	  	  	  </p>
+   	  	  </div>
+ 
+   	  	  <div class="about-me">
+              <h2 class="left-side-title">My </h2>
+             <iframe src="https://chhetrianil.com.np/portfolio/" width="560" height="315" allowfullscreen="allowfullscreen"></iframe>
+            </div>
+   	  	  <div class="about-me ">
+              <h2 class="left-side-title">My Hobbies</h2>
+              <ul>
+              	<li> Redaing Books |</li>
+				<ol> 
+				<li>In Search of Lost Time by Marcel Proust </li>
+				<li>War and Peace by Leo Tolstoy </li>
+				<li>Hamlet by William Shakespeare </li>
+				</ol>
+              	<li>Watching Movies |</li>
+              	<li>Playing Footbal |</li>
+              	<li>Traveling</li>
+              </ul>
+            </div>
+   	  	  <div class="about-me">
+              <h2 class="left-side-titlee">My Location</h2>
+           <iframe src="https://www.google.co.jp/maps/place/%E3%80%92612-8419/@34.959099,135.7568343,17z/data=!3m1!4b1!4m5!3m4!1s0x60010f8fe17f9879:0xac5b65827fc9de3c!8m2!3d34.9595286!4d135.7586143?hl=ja" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div
+   	  </div>
+
+   </div>
+
+</body></html>
